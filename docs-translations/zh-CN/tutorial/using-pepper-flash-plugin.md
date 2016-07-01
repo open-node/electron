@@ -11,7 +11,7 @@ Flash 的插件信息。插件的路径和版本会对 Election 对其的支持�
 
 ## 添加插件在 Electron 里的开关
 
-你可以直接在命令行中用 `--ppapi-flash-path` 和 `ppapi-flash-version` 或者
+你可以直接在命令行中用 `--ppapi-flash-path` 和 `--ppapi-flash-version` 或者
 在 app 的准备事件前调用 `app.commandLine.appendSwitch` 这个 method。同时，
 添加 `browser-window` 的插件开关。
 例如：
